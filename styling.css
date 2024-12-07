@@ -57,3 +57,17 @@ img {
 .studentemoji {
  vertical-align: -3px; 
 }
+.projects-cont{
+ display: flex;
+ gap: 20px; /* Space between the divs */
+ flex-wrap: wrap;
+}
+
+.dsc ,.shift{
+ box-sizing: border-box;
+ border: 2px solid grey; 
+ padding: 20px;
+ margin: 20px 0;
+ border-radius: 10px;  
+ width: 500px;
+}
